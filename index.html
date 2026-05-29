@@ -256,16 +256,31 @@ audio{display:none}
    Walkman und Regal passen sich automatisch an.
 ===================================================== */
 const CASS = [
-  { name:'Karin', title:'Meine Geschichte', file:'audio/karin.mp3',
-    color:'#b84010', glow:'rgba(255,107,53,.55)', text:'#6a2500', dur:'~5 min' },
-  { name:'Arno',  title:'Meine Geschichte', file:'audio/arno.mp3',
-    color:'#006b56', glow:'rgba(0,201,167,.5)',   text:'#003028', dur:'~5 min' },
-  { name:'David', title:'Leipzig by Night', file:'audio/Leipzig_by_Night.mp3',
-    color:'#8a1a52', glow:'rgba(255,78,140,.5)',  text:'#420026', dur:'~5 min' }
-  /* --- weitere Kassetten hier einfügen: ---
-  ,{ name:'Name', title:'Titel', file:'name.mp3',
-     color:'#1a4a8a', glow:'rgba(80,130,255,.5)', text:'#0a1a4a', dur:'~5 min' }
-  */
+  // ── Karin ──────────────────────────────────────────────
+  { name:'Karin', title:'Der Schlüssel',             file:'audio/Der_Schlüssel.m4a',
+    color:'#b84010', glow:'rgba(255,107,53,.55)', text:'#6a2500', dur:'' },
+  { name:'Karin', title:'Die Geschichte mit dem Hammer', file:'audio/Die Geschichte mit dem Hammer.m4a',
+    color:'#c25a00', glow:'rgba(255,120,40,.5)',  text:'#6a2800', dur:'' },
+  { name:'Karin', title:'Elefanten verscheuchen',    file:'audio/Elefanten verscheuchen.m4a',
+    color:'#a03000', glow:'rgba(220,80,20,.5)',   text:'#5a1800', dur:'' },
+  { name:'Karin', title:'Fribourg',                  file:'audio/Fribourg.m4a',
+    color:'#b84010', glow:'rgba(255,107,53,.55)', text:'#6a2500', dur:'' },
+  { name:'Karin', title:'Legendäre Geschichten',     file:'audio/Legendäre Geschichten .m4a',
+    color:'#c24510', glow:'rgba(240,100,30,.5)',  text:'#702000', dur:'' },
+  { name:'Karin', title:'PHGR-Zeit',                 file:'audio/PHGR-Zeit.m4a',
+    color:'#a03800', glow:'rgba(210,90,20,.5)',   text:'#5a1800', dur:'' },
+  { name:'Karin', title:'Über Zen lernen',           file:'audio/Über Zen lernen.m4a',
+    color:'#b05010', glow:'rgba(230,110,30,.5)',  text:'#602000', dur:'' },
+  { name:'Karin', title:'Was ich an dir schätze',    file:'audio/Was ich an dir schätze.m4a',
+    color:'#c03000', glow:'rgba(240,80,20,.5)',   text:'#6a1800', dur:'' },
+  { name:'Karin', title:'Was ich dir wünsche',       file:'audio/Was ich dir wünsche.m4a',
+    color:'#b84010', glow:'rgba(255,107,53,.55)', text:'#6a2500', dur:'' },
+  // ── Arno ───────────────────────────────────────────────
+  { name:'Arno',  title:'Passau',                    file:'audio/Passau.m4a',
+    color:'#006b56', glow:'rgba(0,201,167,.5)',   text:'#003028', dur:'' },
+  // ── David ──────────────────────────────────────────────
+  { name:'David', title:'Leipzig by Night',          file:'audio/Leipzig_by_Night.mp3',
+    color:'#8a1a52', glow:'rgba(255,78,140,.5)',  text:'#420026', dur:'' }
 ];
 
 /* build audio + cassette elements */
